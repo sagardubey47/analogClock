@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(38, 71, 90);
+   
+}
+
+.container {
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.frame {
+    min-height: 300px;
+    min-width: 300px;
+    border: solid rgb(226, 223, 223) 3px;
+    border-radius: 100%;
+    margin-top: 15%;
+    position: relative;
+}
+
+.hand {
+    transform: rotate(90deg);
+    transform-origin: 100%;
+    background-color: rgb(172, 204, 238);
+    position: absolute;
+}
+
+.hours-hand {
+    height: 6px;
+    width: 120px;
+    top: 147px;
+    left: 30px;
+    transform: rotate(90deg);
+     transition: ease-in 1s;
+}
+
+.min-hand {
+    height: 5px;
+    width: 135px;
+    top: 147.5px;
+    left: 15px;
+    transform: rotate(180deg);
+    transition: ease-in 0.5s;
+}
+
+.sec-hand {
+    height: 3px;
+    width: 145px;
+    top: 148.5px;
+    left: 5px;
+    transform: rotate(240deg);
+     transition: ease-in 0.01s;
+}
+
+.numbers {
+    color: whitesmoke;
+    font-size: 20px;
+    position: absolute;
+}
+
+.twelve {
+   left:138px;
+   top: -30px;
+}
+ 
+.eleven {
+    top: -5px;
+    left: 50px;
+}
+
+.ten {
+    top: 57px;
+    left: -10px;
+}
+
+.nine {
+    top: 138px;
+    left: -20px;
+}
+
+.eight {
+    top: 220px;
+    left: 2px;
+}
+
+.seven {
+   top: 282px;
+   left: 62px;
+}
+
+.six {
+    left: 145px;
+    bottom: -30px;
+}
+
+.five {
+    top: 278px;
+    left: 228px;
+}
+
+.four {
+    top: 215px;
+    left: 282px;
+}
+
+.three {
+    top: 138px;
+    right: -20px;
+}
+
+.two {
+    top: 60px;
+    left: 287px;
+}
+
+.one {
+    top: -2px;
+    left: 228px;
+}
